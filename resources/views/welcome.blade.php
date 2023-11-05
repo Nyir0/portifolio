@@ -41,7 +41,7 @@
                         :empresa="'Integramix'" 
                         :description="'Criação de Landing Pages usando o laravel
                         que pode por meio do Laravel agilizava a velocidade de 
-                        entrega da pagina.'"
+                        entrega das paginas.'"
                     >
                     </x-card>
                     <x-card 
@@ -56,8 +56,31 @@
                     foi onde eu criei mais landing pages.
                 </p>
             </div>
-            <div class="py-8">
-
+            <div class="flex flex-wrap items-center py-8">
+                <x-images :img="'img/25005108362009.webp'"></x-images>
+                <x-images :img="'img/PHP-logo.svg.png'"></x-images>
+                <x-images :img="'img/1color-orange-lightbg@2x.png'"></x-images>
+                <x-images :img="'img/MySQL-Logo.jpg'"></x-images>
+                <x-images :img="'img/html5_and_css3.webp'"></x-images>
+                <x-images :img="'img/Unofficial_JavaScript_logo_2.svg.png'"></x-images>
+            </div>
+            <div class="flex flex-col py-8 w-full">
+                <h2 class="uppercase text-gg font-bold text-red-500">Alguns projetos desenvolvidos por mim:</h2>
+                <div class="flex flex-wrap items-center py-2">
+                    <div class="flex justify-between w-full">
+                        <x-link_card :link="'https://computador.strongtechbrasil.com.br/page4'" :img="'img/4cf1541ff9482f7ddeb51bd0f886c0c3.webp'" :text="'Landing page de venda de computadores All In One'"></x-link_card>
+                        <x-link_card :link="'https://computador.strongtechbrasil.com.br/page6'" :img="'img/purepng.com-laptop-notebooklaptopsnotebooknotebook-computerclamshell-17015283549984ov54.png'" :text="'Landing page de venda de Notebooks'"></x-link_card>
+                    </div>
+                </div>
+                <div class="flex flex-wrap items-center py-2">
+                    <div class="flex justify-between w-full">
+                        <x-link_card :link="'https://computador.strongtechbrasil.com.br/page8'" :img="'img/51zr2LPPfwL._AC_UF894,1000_QL80_.jpg'" :text="'Variante da Landing page de venda de computadores All In One'"></x-link_card>
+                        <x-link_card :link="'https://novosite.ramasfragrancias.com.br/inicio'" :img="'img/capa-difusores.webp'" :text="'Site de Venda de Fragrâncias'"></x-link_card>
+                    </div>
+                </div>
+                <p class="w-full text-center">
+                    Observação: Todos este projetos foram feitos utilizando Laravel. Inclusive este portifólio embora mais simples, também foi feito em Laravel.
+                </p>
             </div>
         </section>
         @vite("resources/js/canva/three.r134.min.js")
