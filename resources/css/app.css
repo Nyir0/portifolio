@@ -25,6 +25,12 @@ header{
     z-index: -1 !important;
 }
 
+@media screen and (max-width:767px) {
+    .vanta-canvas{
+        height: 50vw!important;
+    }
+}
+
 .text-gg{
     font-size: 3vw;
 }
