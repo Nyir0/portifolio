@@ -16,12 +16,12 @@ header{
 }
 
 .vanta-canvas{
-    padding-top: 5rem;
+    padding-top: 0rem;
     position: relative;
     left: unset !important;
     right: 0rem !important;
-    height: 30vw!important;
-    width: 85vw !important;
+    height: 25vw!important;
+    width: 70vw !important;
     z-index: -1 !important;
 }
 

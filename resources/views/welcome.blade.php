@@ -7,15 +7,15 @@
         <title>Gabriel Teofilo - Portifolio</title>
     </head>
     <body>
-        <header class="flex text-xl py-[2vh] fixed top-0 w-full">
+        {{-- <header class="flex text-xl py-[2vh] fixed top-0 w-full">
             <nav class="w-full">
                 <div class="flex justify-evenly">
                     <span class="px-3 mx-[2vw] cursor-pointer hover:scale-125 transition-all max-w-md text-m">Inicio</span>
                     <span class="px-3 mx-[2vw] cursor-pointer hover:scale-125 transition-all max-w-md text-m">Contato</span>
                 </div>
             </nav>
-        </header>
-        <main id="vanta" class="flex pt-20 mt-[3vw] w-full">
+        </header> --}}
+        <main id="vanta" class="flex pt-0 mt-[3vw] w-full">
             <div class="w-1/2 py-16 pl-[7.5vw]">
                 <h1 class="text-gg font-bold text-red-500">GABRIEL TEOFILO</h1>
                 <h2 class="text-m py-4 font-semibold">
@@ -82,7 +82,17 @@
                     Observação: Todos este projetos foram feitos utilizando Laravel. Inclusive este portifólio embora mais simples, também foi feito em Laravel.
                 </p>
             </div>
+            <div>
+                <h2 class="uppercase text-gg font-bold text-red-500">Contatos</h2>
+                <x-link_card :link="'https://api.whatsapp.com/send?phone=5511942979746&text=Gostaria%20de%20um%20or%C3%A7amento%20para%20um%20projeto.'" :img="'img/whatsapp-logo-whatsapp-icon-whatsapp-transparent-free-png.webp'" :text="'(11) 94297-9746'"></x-link_card>
+                <strong class="text-m font-bold">Email: gabriel.ol.teo@outlook.com</strong>
+            </div>
         </section>
+        <footer class="px-20 pb-10 text-center">
+            <strong class="uppercase text-m">
+                **No momento estou totalmente a disposição, mande uma mensagem em meu email ou whatsapp que retornarei o contato o mais rápido possível.
+            </strong>
+        </footer>
         <script src="js/three.r134.min.js"></script>
         @vite("resources/js/canva/canva.js")
     </body>
