@@ -83,7 +83,7 @@
                 </p>
             </div>
         </section>
-        @vite("resources/js/canva/three.r134.min.js")
+        <script src="js/three.r134.min.js"></script>
         @vite("resources/js/canva/canva.js")
     </body>
 </html>
