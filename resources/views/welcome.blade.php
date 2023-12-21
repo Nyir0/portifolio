@@ -37,7 +37,7 @@
                     >
                     </x-card>
                     <x-card 
-                        :title="'2 anos de expêriencia em PHP,Laravel, HTML5, CSS e Javascript'"
+                        :title="'6 meses de expêriencia em PHP,Laravel, React, HTML5, CSS e Javascript'"
                         :empresa="'Integramix'" 
                         :description="'Criação de Landing Pages usando o laravel
                         que pode por meio do Laravel agilizava a velocidade de 
