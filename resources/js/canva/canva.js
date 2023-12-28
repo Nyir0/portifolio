@@ -1,14 +1,17 @@
-import "../canva/vanta.globe.min.js";
+import "../canva/vanta.min.js";
 
-VANTA.GLOBE({
-    el: "#vanta",
+VANTA.WAVES({
+    el: "html",
     mouseControls: false,
-    touchControls: true,
+    touchControls: false,
     gyroControls: false,
+    minHeight: window.innerHeight,
+    minWidth: window.innerHeight,
     scale: 1.00,
     scaleMobile: 1.00,
-    color: 0xf2a4a4,
-    color2: 0xf4a4a4,
-    size: 2.5,
-    backgroundColor: 0xffffff
+    color: 0x0,
+    shininess: 17.00,
+    waveHeight: 12.50,
+    waveSpeed: 0.15,
+    zoom: 1.33
 })

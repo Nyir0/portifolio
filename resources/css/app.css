@@ -6,7 +6,19 @@
 
 *{
     font-family: "Jost", sans-serif;
-    color: #555555;
+    color: #dedede;
+}
+
+body{
+    background-color: black;
+}
+
+ul{
+    padding-left: 1.5rem;
+}
+
+ul li{
+    list-style-type: disc;
 }
 
 header{
@@ -20,15 +32,7 @@ header{
     position: relative;
     left: unset !important;
     right: 0rem !important;
-    height: 25vw!important;
-    width: 70vw !important;
     z-index: -1 !important;
-}
-
-@media screen and (max-width:767px) {
-    .vanta-canvas{
-        height: 50vw!important;
-    }
 }
 
 .text-gg{
