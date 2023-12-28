@@ -8,7 +8,7 @@ export default defineConfig({
                 'resources/css/app.css', 
                 'resources/js/app.js',
                 'resources/js/canva/canva.js',
-                'resources/js/canva/vanta.globe.min.js'
+                'resources/js/canva/vanta.min.js'
             ],
             refresh: true,
         }),
