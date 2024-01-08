@@ -55,7 +55,7 @@
                 </a>
             </section>
         </div>
-        <section class="bg-[#111111] px-24 py-10">
+        <section class="bg-[var(--gray)] px-24 py-10">
             <div class="flex justify-between w-full">
                 <img src="/img/myphoto.jpg" alt="" width="500" height="500">
                 <div class="flex flex-col items-start w-[calc(100%-550px)]">
@@ -71,5 +71,36 @@
                 </div>
             </div>
         </section>
+        <section class="px-24 py-10 h-[100vh]">
+            <div class="flex items-end mb-5">
+                <h2>Experiências</h2>
+                <span class="red pl-1">*</span>
+            </div>
+            <div class="flex w-full">
+                <div class="w-48">
+                    <ul id="exp">
+                        <li id="Integramix">Integramix</li>
+                        <li id="NorwayBank">NorwayBank</li>
+                        <li id="Universidade_Paulista">Universidade Paulista</li>
+                    </ul>
+                </div>
+                <div class="w-[calc(100%-12rem)] pl-5">
+                    <div class="flex justify-between mb-2">
+                        <strong id="exp_job">Desenvolvedor Full Stack PHP</strong>
+                        <strong id="exp_date">Mai 2023 - Nov 2023</strong>
+                    </div>
+                    <div class="flex flex-col">
+                        <strong id="exp_company" class="red mb-2">
+                            Integramix
+                        </strong>
+                        <p id="exp_description">
+                            Na Integramix, minha expertise foi focada na criação de sistemas robustos e integrados utilizando Laravel. Destaco minhas habilidades em integrações bem-sucedidas com Mercado Livre e WooCommerce, utilizando Laravel e suas tecnologias REST, como Laravel Breeze. Um dos marcos significativos foi a concepção de um dashboard intuitivo, aproveitando a API REST do WooCommerce para gerenciar produtos e relatórios, ampliando minha proficiência em Laravel.
+                            Além disso, destaco meu papel na criação ágil de Landing Pages utilizando Laravel para acelerar a entrega de projetos. Minha habilidade em PHP, React, HTML5, CSS e Javascript foi fundamental para desenvolver essas páginas eficientes e visualmente atrativas. Também possuo domínio em tecnologias como Vite, NPM, Git, Javascript, Tailwind, Bootstrap e MySQL, contribuindo para o desenvolvimento completo de sistemas e interfaces.
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </section>
+        @vite('resources/js/clickExperiencia.js')
     </body>
 </html>

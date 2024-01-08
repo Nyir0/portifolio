@@ -10,6 +10,7 @@
 
 :root{
     --red:#EF4444;
+    --gray: #111111;
 }
 
 h1, h1 span{
@@ -38,6 +39,17 @@ nav ul li{
     margin-left: 0.75rem;
     margin-right: 0.75rem;
     cursor: pointer;
+}
+
+ul#exp li{
+    padding: 15px 15px;
+    background-color: var(--gray);
+    cursor: pointer;
+    border-left:2px solid var(--gray);
+}
+
+ul#exp li:hover{
+    border-left:2px solid var(--red);
 }
 
 a.button-zap{
